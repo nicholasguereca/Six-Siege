@@ -1,0 +1,268 @@
+body {
+	height:100%;
+	width: 100%;
+	margin:0%;
+	cursor:url(https://img.icons8.com/nolan/64/000000/rainbow-six-siege.png) 10 10, auto;
+}
+
+.really-big-really-small-box {
+	height:100%;
+	width: 100%;
+	display: flex;
+}
+
+.row1 {
+	height:10%;
+	width:100%;
+	background-color:black;
+	display:flex;
+}
+
+.small-really-big-really-box{
+	height: 75%;
+	width: 75%;
+}
+
+.centertext {
+	text-align: center;
+}
+
+h1 {
+	font-family: white;
+}
+
+.box1 {
+	height:100%;
+	width:50%;
+	display:block;
+	background-color: blue;
+}
+
+.hold{
+	margin:auto;
+	max-height:100%;
+	max-width:100%;
+}
+
+.center{
+	justify-content:center;
+	align-items:center;
+}
+
+.box2 {
+	height:100%;
+	width:50%;
+	display:block;
+	background-color: red;
+}
+
+.circle {
+	height:90%;
+	width:100%;
+	display:flex;
+}
+
+.small-row1 {
+	height:25%;
+	width:100%;
+	display:flex;
+	background-color:red
+}
+
+.small-row2 {
+	height:25%;
+	width:100%;
+	display:flex;
+	background-color:blue
+}
+
+.box4 {
+	height:100%;
+	width:25%;
+	display:flex;
+	background-color:white;
+}
+
+.box5 {
+	height:100%;
+	width:25%;
+	display:flex;
+	background-color:black;
+}
+
+.box99{
+	height:75%;
+	width:100%;
+	background-color:green;
+}
+.box100{
+	height:75%;
+	width:100%;
+	background-color:yellow;
+}
+img {
+	height:100%;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+}
+.image {
+	height:100%;
+	align-items:center;
+	margin:auto;
+	justify-content:center;
+}
+.size {
+	height:100%;
+	width:100%;
+}
+
+.contain-image {
+	position:absolute;
+}
+
+.power-up {
+	content:url(ash6.png);
+}
+.power-up1 {
+	content:url(hibana7.png);
+}
+
+.power-up2 {
+	content:url(thermite01.png);
+}
+
+.power-up3 {
+	content:url(sledge2.png);
+}
+
+.power-up4 {
+	content:url(smoke1.png);
+}
+
+.power-up5 {
+	content:url(jager123.png);
+}
+
+.power-up6 {
+	content:url(valk7372.png);
+}
+
+.power-up7 {
+	content:url(bandit1.png);
+}
+
+
+@media only screen and (max-width:768px){
+	.circle {
+		height:90%;
+		width:100%;
+		display:block;
+	}
+	
+	.box1 {
+		height:100%;
+		width:100%;
+		display:block;
+		background-color: blue;
+	}
+
+	.box2 {
+		height:100%;
+		width:100%;
+		display:block;
+		background-color: red;
+	}
+	
+	.box99 {
+		height:75%;
+		width:100%;
+		background-color:green;
+		display:flex;
+	}
+	.box100 {
+		height:75%;
+		width:100%;
+		background-color:yellow;
+		display:flex;
+	}	
+}
+
+@media only screen and (max-width:375px){
+	.circle {
+		height:90%;
+		width:100%;
+		display:flex;
+	}
+	
+	.box99 {
+		display:none;
+	}
+
+	.box100 {
+		display:none
+	}
+	
+	.box1 {
+		height:100%;
+		width:50%;
+		display:block;
+		background-color: blue;
+	}
+
+	.box2 {
+		height:100%;
+		width:50%;
+		display:block;
+		background-color: red;
+	}
+	.small-row1 {
+		height:100%;
+		width:100%;
+		display:block;
+		background-color:red
+	}
+
+	.small-row2 {
+		height:100%;
+		width:100%;
+		display:block;
+		background-color:blue
+	}	
+	.box4 {
+	height:25%;
+	width:100%;
+	display:flex;
+	background-color:white;
+}
+
+	.box5 {
+		height:25%;
+		width:100%;
+		display:flex;
+		background-color:black;
+	}
+}
+
+
+.red {
+	background-color:red;
+}
+.blue {
+	background-color:blue;
+}
+.orange {
+	background-color:orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
