@@ -5,12 +5,6 @@ body {
 	cursor:url(https://img.icons8.com/nolan/64/000000/rainbow-six-siege.png) 10 10, auto;
 }
 
-.really-big-really-small-box {
-	height:100%;
-	width: 100%;
-	display: flex;
-}
-
 .row1 {
 	height:10%;
 	width:100%;
@@ -18,22 +12,9 @@ body {
 	display:flex;
 }
 
-.small-really-big-really-box{
-	height: 75%;
-	width: 75%;
-}
-
-.centertext {
-	text-align: center;
-}
-
-h1 {
-	font-family: white;
-}
-
 .box1 {
 	height:100%;
-	width:50%;
+	width:calc(100%/2);
 	display:block;
 	background-color: blue;
 }
@@ -51,7 +32,7 @@ h1 {
 
 .box2 {
 	height:100%;
-	width:50%;
+	width:calc(100%/2);
 	display:block;
 	background-color: red;
 }
@@ -69,6 +50,40 @@ h1 {
 	background-color:red
 }
 
+.pulse:hover{ 
+	animation: pulse 1s infinite;
+	animation-timing-function: linear;   
+}
+.pulse:active{ 
+	animation: shake 1s infinite;
+	animation-timing-function: linear;   
+}
+
+@keyframes pulse {
+	0% { transform: scale(1); }
+	50% { transform: scale(1.1);
+	100% { transform: scale(1); }
+  }
+}
+
+.shake:hover {
+	animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .small-row2 {
 	height:25%;
 	width:100%;
@@ -80,14 +95,6 @@ h1 {
 	height:100%;
 	width:25%;
 	display:flex;
-	background-color:white;
-}
-
-.box5 {
-	height:100%;
-	width:25%;
-	display:flex;
-	background-color:black;
 }
 
 .box99{
@@ -120,7 +127,6 @@ img {
 .contain-image {
 	position:absolute;
 }
-
 .power-up {
 	content:url(ash6.png);
 }
@@ -230,20 +236,12 @@ img {
 		background-color:blue
 	}	
 	.box4 {
-	height:25%;
-	width:100%;
-	display:flex;
-	background-color:white;
-}
-
-	.box5 {
 		height:25%;
 		width:100%;
 		display:flex;
-		background-color:black;
+		background-color:white;
 	}
 }
-
 
 .red {
 	background-color:red;
